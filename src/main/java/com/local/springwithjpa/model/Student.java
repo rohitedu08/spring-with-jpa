@@ -1,4 +1,4 @@
-package com.local.springwithjpa;
+package com.local.springwithjpa.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,8 +17,7 @@ public class Student {
 
 	}
 
-	public Student(Long id, String name, String passportNumber) {
-		this.id = id;
+	public Student(String name, String passportNumber) {
 		this.name = name;
 		this.passportNumber = passportNumber;
 	}
